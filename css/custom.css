@@ -1,0 +1,116 @@
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+h3,
+h2 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.vert-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.vert-text h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+/* Full Page Image Header Area */
+
+.header {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(/background/poster.jpg) no-repeat;
+    background-size: cover;
+}
+footer {
+    padding: 100px 0;
+}
+#arraytext {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+    .header {
+        background: url(../img/bg.jpg) no-repeat center center scroll;
+    }
+    .callout {
+        background: url(../img/callout.jpg) no-repeat center center scroll;
+    }
+    .map {
+        height: 75%;
+    }
+    #page-skills {
+        text-align: center
+    }
+    .section-header p {
+        font-size: 1.2em
+    }
+    .section-title {
+        font-size: 1.5em
+    }
+}
+#page-skills {
+    padding: 75px 0;
+    background: #f7f7f7;
+    text-align: center
+}
+.section-header {
+    text-align: center
+}
+.section-header p {
+    font-size: 1.5em
+}
+.section-title {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #555;
+    text-transform: uppercase;
+    padding: 20px 0
+}
+.section-subtitle {
+    text-align: center;
+    padding: 30px 0
+}
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0
+}
