@@ -1,3 +1,4 @@
+/*
 var textarray = [
     "printf (Hello, World !);",
     "PRINT Hello, World !;",
@@ -27,6 +28,8 @@ function RndText() {
 onload = function() {
     RndText();
 }
+
+*/
 
 var inter = setInterval(function() {
     RndText();
