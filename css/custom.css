@@ -48,13 +48,13 @@ video#bgvid {
     background-size: auto;
 }
 
-#arraytext {
+/*#arraytext {
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
-}
+}*/
 /* Responsive */
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .header {
         background: url(../img/bg.jpg) no-repeat center center scroll;
     }
@@ -97,7 +97,7 @@ video#bgvid {
 .section-subtitle {
     text-align: center;
     padding: 30px 0;
-}
+}*/
 
 #particles-js {
   position: absolute;
