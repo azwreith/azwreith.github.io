@@ -29,11 +29,15 @@ onload = function() {
     RndText();
 }
 
-*/
-
 var inter = setInterval(function() {
     RndText();
 }, 1000);
+
+*/
+
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 
 $(document).ready(function() {
     $('body').css('opacity', '0').fadeTo(1500, 1, 'swing');
