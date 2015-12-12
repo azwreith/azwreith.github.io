@@ -33,7 +33,7 @@ h2 {
     -o-background-size: cover;
     background-size: cover;
 }
-video#bgvid {
+#bgvid {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -48,56 +48,6 @@ video#bgvid {
     background-size: auto;
 }
 
-/*#arraytext {
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-}*/
-/* Responsive */
-
-/*@media (max-width: 768px) {
-    .header {
-        background: url(../img/bg.jpg) no-repeat center center scroll;
-    }
-    .callout {
-        background: url(../img/callout.jpg) no-repeat center center scroll;
-    }
-    .map {
-        height: 75%;
-    }
-    #page-skills {
-        text-align: center;
-    }
-    .section-header p {
-        font-size: 1.2em;
-    }
-    .section-title {
-        font-size: 1.5em;
-    }
-}
-#page-skills {
-    padding: 75px 0;
-    background: #f7f7f7;
-    text-align: center;
-}
-.section-header {
-    text-align: center;
-}
-.section-header p {
-    font-size: 1.5em;
-}
-.section-title {
-    font-size: 3em;
-    font-weight: 700;
-    letter-spacing: 5px;
-    text-align: center;
-    color: #555;
-    text-transform: uppercase;
-    padding: 20px 0;
-}
-.section-subtitle {
-    text-align: center;
-    padding: 30px 0;
-}*/
 
 #particles-js {
   position: absolute;
@@ -107,7 +57,7 @@ video#bgvid {
   height: 100%;
 }
 
-canvas {
+/*canvas {
   display:block;
   vertical-align:bottom;
-}
+}*/
