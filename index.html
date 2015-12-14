@@ -1,56 +1,113 @@
 <!doctype html>
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio">
     <meta name="author" content="Ujjwal Arora">
     <title>Ujjwal Arora</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="css/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
-
-
-</head>
+  </head>
 
 <body>
-        <div id="particles-js"></div>
 
-        <div id="top" class="header">
-          <video autoplay loop poster="background/poster.jpg" id="bgvid">
-              <source src="background/video.mp4" type="video/mp4">
-              </video>
-        <div class="vert-text">
+  <div id="fullpage">
 
-            <!-- <div id="arraytext"></div> -->
-            <h2>Ujjwal Arora</h2>
-            <h3>Hey there! Thanks for visiting.</h3>
-            <br></br>
-            <a class="btn btn-default btn-lg" href="https://drive.google.com/file/d/0B3haXXDTn3nEaXE4T3BySnNvOVU/view?usp=sharing" target="_blank"> <span class="network-name">Curriculum Vitae</span></a>
-            <br></br>
+    <div class="section container">
 
-            <ul class="list-inline ">
-              <li><a title="Facebook" class="icon" href="https://www.facebook.com/arora.ujjwal" target="_blank"> <i class="fa fa-facebook fa-3x"></i> </a> </li>
+      <div id="particles-js"></div>
 
-              <li> <a title="Twitter" class="icon" href="https://twitter.com/ujjwalgohan" target="_blank"> <i class="fa fa-twitter fa-3x"></i> </a></li>
+        <video autoplay loop poster="background/poster.jpg" id="bgvid">
+          <source src="background/video.mp4" type="video/mp4">
+        </video>
 
-              <li> <a title="LinkedIn" class="icon" href="https://in.linkedin.com/in/aroraujjwal" target="_blank"> <i class="fa fa-linkedin fa-3x"></i> </a> </li>
-
-              <li> <a title="Github" class="icon" href="https://github.com/DarthUjj" target="_blank"> <i class="fa fa-github fa-3x"></i> </a> </li>
-
-              <li> <a title="Google+" class="icon" href="https://plus.google.com/+UjjwalAroraIsAwesome" target="_blank"> <i class="fa fa-google-plus fa-3x"></i></a> </li>
-
-              <li> <a title="Email" class="icon" href="mailto:arora.ujjwal@gmail.com" target="_blank" data-toggle="tooltip"> <i class="fa fa-envelope fa-3x"></i></a> </li>
-            </ul>
+        <div class="center-text">
+          <h1>Ujjwal Arora</h1>
+          <h3>Software developer with a passion for the web.</h3>
+          <br></br>
         </div>
+
+
     </div>
+
+    <div class="section container">
+
+      <div class="content">
+
+        <div class="flex">
+
+          <div class="fixed">
+            <h2>I'm Ujjwal Arora.</h2><br>
+              Born and raised in India before moving to 'murica.
+              Currently studying Information Technology in Manipal Institute of Technology, Manipal.
+              I have previously interned at <a href="http://euprime.org">Euprime</a> and <a href="http://www.firexitsoftware.com">Firexit Software</a>. When I'm not dishing out code, I play DotA ;)
+              I'm a big time otaku who watches just about any anime out there. Also, I love open source!
+          </div>
+
+          <div class="flex-item">
+            <div class="profile"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="heading">
+        <h2>Things I can do</h2>
+      </div>
+
+      <div class="content">
+        <div class="capabilities">
+          <ul class="feature-icons">
+            <li class="fa-code">Write all the code</li>
+            <li class="fa-gamepad">Play games</li>
+            <li class="fa-book">Read books and stuff</li>
+            <li class="fa-coffee">Drink lots of coffee</li>
+            <li class="fa-bolt">Fall asleep fast</li>
+            <li class="fa-users">Collaborate!</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section container">
+      <div class="content">
+        <div id="skills">
+          <h1>Skills</h1>
+        </div>
+        <canvas id="skill-chart"></canvas>
+      </div>
+    </div>
+
+
+    <!-- <ul class="list-inline ">
+      <li><a title="Facebook" class="icon" href="https://www.facebook.com/arora.ujjwal" target="_blank"> <i class="fa fa-facebook fa-3x"></i> </a> </li>
+      <li> <a title="Twitter" class="icon" href="https://twitter.com/ujjwalgohan" target="_blank"> <i class="fa fa-twitter fa-3x"></i> </a></li>
+      <li> <a title="LinkedIn" class="icon" href="https://in.linkedin.com/in/aroraujjwal" target="_blank"> <i class="fa fa-linkedin fa-3x"></i> </a> </li>
+      <li> <a title="Github" class="icon" href="https://github.com/DarthUjj" target="_blank"> <i class="fa fa-github fa-3x"></i> </a> </li>
+      <li> <a title="Google+" class="icon" href="https://plus.google.com/+UjjwalAroraIsAwesome" target="_blank"> <i class="fa fa-google-plus fa-3x"></i></a> </li>
+      <li> <a title="Email" class="icon" href="mailto:arora.ujjwal@gmail.com" target="_blank" data-toggle="tooltip"> <i class="fa fa-envelope fa-3x"></i></a> </li>
+    </ul> -->
+
+  </div>
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.fullpage.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/particles.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/Chart.min.js"></script>
     <script src="js/custom.js"></script>
 
     <!-- Google Analytics -->

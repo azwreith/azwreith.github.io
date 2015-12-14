@@ -1,44 +1,36 @@
-/*
-var textarray = [
-    "printf (Hello, World !);",
-    "PRINT Hello, World !;",
-    "std::cout << 'Hello, World !' << std::endl;",
-    "System.out.println('Hello, World !');",
-    "document.write('Hello, World !');",
-    "Print['Hello, World !']",
-    "NSLog(@'Hello, World !');",
-    "echo 'Hello, World !';",
-    "print('Hello, World !')",
-    "WRITE 'Hello, World !'.",
-    "message 'Hello, World !' with style = popup;",
-    "trace('Hello, World !');",
-    "WRITE 'Hello, World !'.",
-    "MSG: .ASCIIZ 'Hello, World !'",
-    "10 PRINT 'Hello, World !'",
-    "<p>Hello, World !</p>",
-    "put 'Hello, World !'",
-    "puts 'Hello, World !'",
-    "PRINT *, 'Hello, World !'"
-];
-
-function RndText() {
-    var rannum = Math.floor(Math.random() * textarray.length);
-    document.getElementById('arraytext').innerHTML = textarray[rannum];
-}
-onload = function() {
-    RndText();
-}
-
-var inter = setInterval(function() {
-    RndText();
-}, 1000);
-
-*/
-
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
 $(document).ready(function() {
     $('body').css('opacity', '0').fadeTo(1500, 1, 'swing');
+
+    new WOW().init();
+
+    $('#fullpage').fullpage({
+      navigation: true,
+      navigationPosition: 'right',
+      scrollBar: true
+    });
+
 });
+
+var ctx = document.getElementById("skill-chart").getContext("2d");
+
+var data = {
+    labels: ['Java', 'MySQL', 'JavaScript', 'Python', 'C#', 'HTML5/CSS3', 'C++', 'PHP'],
+    datasets: [
+        {
+            label: "Skill Level",
+            fillColor: "rgba(27,188,155,0.5)",
+            strokeColor: "#fff",
+            pointColor: "rgba(27,188,155,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [10, 7, 8, 6, 7, 9, 7, 5]
+        }
+    ]
+};
+
+var chart = new Chart(ctx).Radar(data, Chart.defaults.Radar);
