@@ -57,6 +57,18 @@ h3 {
   color: #333;
 }
 
+.list-inline {
+	padding-top: 3vh;
+}
+
+.list-inline a {
+	color: #333;
+}
+
+.list-inline a:hover {
+	color: #111;
+}
+
 .container {
 	background: #fff;
 	color: #333;
@@ -72,12 +84,12 @@ h3 {
 	text-align: center;
 }
 
-.flex{
+.flex {
   display: flex;
   text-align: left;
 }
 
-.fixed{
+.fixed {
   width: 50vw;
 }
 
@@ -109,7 +121,7 @@ h3 {
 }
 
 .capabilities {
-  padding: 2vh 0 8vw 8vh;
+  padding: 2vh 0 8vw 6vh;
   text-align: left;
 }
 
