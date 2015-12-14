@@ -92,7 +92,8 @@ h1,h2,h3,p {
 }
 
 .heading {
-  padding: 5em 0 0 10em;
+  /*padding: 5em 0 0 10em;*/
+	text-align: left;
   opacity: 0.8;
 }
 
