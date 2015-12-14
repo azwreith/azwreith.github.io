@@ -86,6 +86,7 @@ h3 {
 .flex {
   display: flex;
   text-align: left;
+	padding-top: 10vh;
 }
 
 .fixed {
