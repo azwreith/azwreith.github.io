@@ -10,6 +10,9 @@ body{
 	max-width: 100%;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 a {
   color: #6aaeee;
