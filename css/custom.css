@@ -52,6 +52,7 @@ h1,h2,h3,p {
 }
 
 .center-text {
+  position: static;
   text-align: center;
   vertical-align: middle;
   z-index: 30;
