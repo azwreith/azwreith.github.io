@@ -37,6 +37,8 @@ h1,h2,h3,p {
   font-family: 'Raleway';
 }
 
+particles-js
+
 #bgvid {
   position: fixed;
   top: 50%;
@@ -49,6 +51,7 @@ h1,h2,h3,p {
   height: auto;
   z-index: -1;
   overflow: hidden;
+  background: url(../background/poster.jpg) no-repeat center;
 }
 
 .center-text {
