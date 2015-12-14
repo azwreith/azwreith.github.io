@@ -10,7 +10,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
       navigation: true,
       navigationPosition: 'right',
-      // scrollBar: true
+      scrollBar: true
     });
 
 });
