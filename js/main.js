@@ -22,9 +22,9 @@ var data = {
     datasets: [
         {
             label: "Skill Level",
-            fillColor: "rgba(27,188,155,0.5)",
+            fillColor: "rgba(51, 51, 51, 0.6)",
             strokeColor: "#fff",
-            pointColor: "rgba(27,188,155,1)",
+            pointColor: "rgba(51, 51, 51, 0.9)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
@@ -35,4 +35,4 @@ var data = {
 
 
 
-var chart = new Chart(ctx).Radar(data, {  angleLineColor : "rgba(0,0,0,.2)", pointLabelFontSize : 12, pointLabelFontColor : "#222"});
+var chart = new Chart(ctx).Radar(data, {  angleLineColor : "rgba(0,0,0,.1)", pointLabelFontSize : 12, pointLabelFontColor : "#222"});

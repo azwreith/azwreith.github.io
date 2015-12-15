@@ -17,12 +17,12 @@ body{
 }
 
 a {
-  color: #2C7964;
+  color: #555;
   text-decoration: none;
 }
 
 a:hover {
-  color: #113028;
+  color: #000;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ h3 {
 }
 
 .page {
-	background: url(../images/background.jpg) no-repeat center center ;
+	background: url(../images/bg.jpg) no-repeat center center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -173,7 +173,8 @@ ul.feature-icons li:before {
 }
 
 ul.feature-icons li:before {
-  background: #4acaa8;
+	opacity: 0.9;
+  background: #333;
   border-radius: 100%;
   color: #ffffff;
   display: block;
