@@ -78,8 +78,8 @@ h3 {
 .content {
 	max-width: 70vw;
 	padding: auto;
-	padding-top: 10vh;
 	margin: auto;
+	margin-top: 5vh;
 	text-align: center;
 }
 
@@ -125,7 +125,7 @@ h3 {
 }
 
 #skills {
-  padding-bottom: 15vh;
+  padding-top: 10vh;
 }
 
 #skill-chart {
@@ -189,5 +189,5 @@ ul.icons li:last-child {
 }
 
 ul.icons li .icon:before {
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
