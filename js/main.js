@@ -35,4 +35,4 @@ var data = {
 
 
 
-var chart = new Chart(ctx).Radar(data, {  angleLineColor : "rgba(0,0,0,.2)", pointLabelFontSize : 12, pointLabelFontColor : "#333"});
+var chart = new Chart(ctx).Radar(data, {  angleLineColor : "rgba(0,0,0,.2)", pointLabelFontSize : 12, pointLabelFontColor : "#222"});
