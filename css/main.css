@@ -17,12 +17,12 @@ body{
 }
 
 a {
-  color: #6aaeee;
+  color: #2C7964;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3c95e9;
+  color: #113028;
   text-decoration: none;
 }
 
@@ -45,6 +45,14 @@ h2 {
 h3 {
 	/*font-size: calc((0.6vw + 0.8vh) * 1.3);*/
 	font-size: 1.45vmax;
+}
+
+.page {
+	background: url(../images/background.jpg) no-repeat center center ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #particles-js {
@@ -74,8 +82,8 @@ h3 {
 }
 
 .container {
-	background: #fff;
-	color: #333;
+	/*background: #fff;*/
+	color: #222;
 	text-align: center;
 }
 
