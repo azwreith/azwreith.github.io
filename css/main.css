@@ -8,7 +8,8 @@ body{
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
 	max-width: 100vw;
-	font-size: calc(0.6vw + 0.8vh);
+	/*font-size: calc(0.6vw + 0.8vh);*/
+	font-size: 1.1vmax;
 }
 
 ::-webkit-scrollbar {
@@ -32,15 +33,18 @@ h1,h2,h3,p {
 
 
 h1 {
-	font-size: calc((0.6vw + 0.8vh) * 2);
+	/*font-size: calc((0.6vw + 0.8vh) * 2);*/
+	font-size: 2.2vmax;
 }
 
 h2 {
-	font-size: calc((0.6vw + 0.8vh) * 1.6);
+	/*font-size: calc((0.6vw + 0.8vh) * 1.6);*/
+	font-size: 1.75vmax;
 }
 
 h3 {
-	font-size: calc((0.6vw + 0.8vh) * 1.3);
+	/*font-size: calc((0.6vw + 0.8vh) * 1.3);*/
+	font-size: 1.45vmax;
 }
 
 #particles-js {
@@ -99,8 +103,9 @@ h3 {
 
 .profile {
 	/*height: 250px;*/
-	padding-top: 13vw;
-	width: 13vw;
+	/*padding-top: 13vw;*/
+	height: 13vmax;
+	width: 13vmax;
 	border-radius: 50%;
 	display: block;
 	margin: auto;
@@ -166,7 +171,7 @@ ul.feature-icons li:before {
   display: block;
   height: 2.5em;
   left: 0;
-  line-height: 2.5vw;
+  line-height: 2.75vmax;
   position: absolute;
   text-align: center;
   top: 0;
