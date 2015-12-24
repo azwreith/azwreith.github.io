@@ -1,7 +1,4 @@
-// fix viewport unit bug in mobile safari
-window.viewportUnitsBuggyfill.init();
-
-// particles
+// intialize particles
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
