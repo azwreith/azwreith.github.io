@@ -1,20 +1,29 @@
+// fix viewport unit bug in mobile safari
+window.viewportUnitsBuggyfill.init();
+
+// particles
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
 $(document).ready(function() {
-    $('body').css('opacity', '0').fadeTo(1500, 1, 'swing');
 
-    new WOW().init();
+  // page flash on ready
+  $('body').css('opacity', '0').fadeTo(1500, 1, 'swing');
 
-    $('#fullpage').fullpage({
-      navigation: true,
-      navigationPosition: 'right',
-      scrollBar: true
-    });
+  // wow lbrary for animation
+  new WOW().init();
+
+  // intitalize fullpage
+  $('#fullpage').fullpage({
+    navigation: true,
+    navigationPosition: 'right',
+    scrollBar: true
+  });
 
 });
 
+// initialize chart
 var ctx = document.getElementById("skill-chart").getContext("2d");
 
 var data = {
@@ -32,7 +41,5 @@ var data = {
         }
     ]
 };
-
-
 
 var chart = new Chart(ctx).Radar(data, {  angleLineColor : "rgba(0,0,0,.1)", pointLabelFontSize : 12, pointLabelFontColor : "#222"});
