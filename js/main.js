@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
 
   // page flash on ready
-  $('body').css('opacity', '1');
+  $('body').css('opacity', '0').fadeTo(1500, 1, 'swing');
 
 });
 

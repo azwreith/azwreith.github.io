@@ -2,8 +2,7 @@ html {
 	height: 100vh;
 }
 
-body{
-	opacity:0;
+body {
 	height: 100vh;
 	margin: 0;
 	padding: 0;
@@ -52,21 +51,13 @@ h3 {
 	font-size: 1.45vmax;
 }
 
-.page {
+/*.page {
 	background: url(../images/bg.jpg) no-repeat center center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-#particles-js {
-  position: absolute;
-  left: 0vw;
-  top: 0vh;
-  width: 100vw;
-  height: 100vh;
-}
+}*/
 
 .center-text {
   text-align: center;
