@@ -26,6 +26,10 @@ a:hover {
   text-decoration: none;
 }
 
+a:link {
+	text-decoration: none;
+}
+
 h1,h2,h3,p {
   color: inherit;
   font-family: 'Raleway';
@@ -141,9 +145,55 @@ h3 {
   padding-top: 10vh;
 }
 
-#skill-chart {
+/*#skill-chart {
   width: 50vh;
   height: 50vh;
+}*/
+
+.education {
+	text-align: left;
+	background-color: rgba(238, 238, 238, 0.6);
+	color: #111;
+	border-radius: 6px;
+	line-height: 3.5vmin;
+	padding: 2.5vmin;
+	margin: 5vh 0 5vh 0;
+}
+
+.education a {
+	color: #111;
+	font-weight: bolder;
+}
+
+.education a:hover {
+	color: #000;
+}
+
+.exppro {
+	margin-top: 5vh;
+	text-align: left;
+	background-color: rgba(238, 238, 238, 0.6);
+	color: #111;
+	border-radius: 6px;
+	line-height: 3.5vmin;
+	padding: 2.5vmin;
+}
+
+.exp-title {
+	margin-bottom: 1vh;
+	padding-bottom: 0.75vh;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0, 0, 0, 0.4);
+}
+
+.experience a {
+	color: #111;
+	font-weight: bolder;
+}
+
+.experience a:hover {
+	color: #000;
 }
 
 ul.feature-icons {

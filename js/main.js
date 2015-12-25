@@ -34,9 +34,9 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [10, 7, 8, 6, 7, 9, 7, 5]
+            data: [9, 7, 7, 6, 7, 8, 7, 5]
         }
     ]
 };
 
-var chart = new Chart(ctx).Radar(data, {  angleLineColor : "rgba(0,0,0,.1)", pointLabelFontSize : 12, pointLabelFontColor : "#222"});
+var chart = new Chart(ctx).Radar(data, {  responsive : true, angleLineColor : "rgba(0,0,0,.1)", pointLabelFontSize : 12, pointLabelFontColor : "#222"});
