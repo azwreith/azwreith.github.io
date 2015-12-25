@@ -179,21 +179,21 @@ h3 {
 	padding: 2.5vmin;
 }
 
+.exppro a {
+	color: #111;
+	font-weight: bolder;
+}
+
+.exppro a:hover {
+	color: #000;
+}
+
 .exp-title {
 	margin-bottom: 1vh;
 	padding-bottom: 0.75vh;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: rgba(0, 0, 0, 0.4);
-}
-
-.experience a {
-	color: #111;
-	font-weight: bolder;
-}
-
-.experience a:hover {
-	color: #000;
 }
 
 ul.feature-icons {
