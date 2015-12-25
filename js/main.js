@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-  // page flash on ready
-  $('body').css('opacity', '0').fadeTo(1500, 1, 'swing');
-
   // wow lbrary for animation
   new WOW().init();
 
@@ -12,6 +9,9 @@ $(document).ready(function() {
     navigationPosition: 'right',
     scrollBar: true
   });
+
+  // page flash on ready
+  $('body').css('opacity', '0').fadeTo(1500, 1, 'swing');
 
 });
 
