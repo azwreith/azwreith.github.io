@@ -1,8 +1,3 @@
-// intialize particles
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
-
 $(document).ready(function() {
 
   // page flash on ready
@@ -34,9 +29,9 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [9, 7, 7, 6, 7, 8, 7, 5]
+            data: [8, 7, 7, 6, 7, 8, 7, 5]
         }
     ]
 };
 
-var chart = new Chart(ctx).Radar(data, {  responsive : true, angleLineColor : "rgba(0,0,0,.1)", pointLabelFontSize : 12, pointLabelFontColor : "#222"});
+var chart = new Chart(ctx).Radar(data, {     scaleOverride: true, scaleSteps: 10, scaleStepWidth: 1, scaleStartValue: 0, angleLineColor : "rgba(0,0,0,.1)", pointLabelFontSize : 12, pointLabelFontColor : "#222"});
