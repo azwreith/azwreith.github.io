@@ -52,6 +52,10 @@ h3 {
 	font-size: 1.45vmax;
 }
 
+a i {
+	color: #333;
+}
+
 .center-text {
   text-align: center;
   vertical-align: middle;
