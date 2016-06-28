@@ -4,8 +4,7 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
     max-width: 100vw;
-    /*font-size: calc(0.6vw + 0.8vh);*/
-    font-size: 1.1vmax;
+    font-size: 2.2vmin;
     background: linear-gradient(to bottom, rgb(52, 242, 181), rgb(19, 80, 88));
 }
 ::-webkit-scrollbar {
