@@ -10,8 +10,8 @@ $(document).ready(function() {
 		scrollBar: true
 	});
 
-	// page flash on ready
-	$('body').css('opacity', '0').fadeTo(1500, 1, 'swing');
+	// show page on ready
+	$("#loadingMask").fadeOut();
 
 });
 
