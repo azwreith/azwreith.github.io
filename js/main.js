@@ -9,11 +9,12 @@ $(document).ready(function() {
 		css3: true,
 		navigation: true,
 		navigationPosition: 'right',
-		scrollBar: true
+		scrollBar: true,
+		afterRender: function() {
+			// show page on ready
+			$("#loadingMask").fadeOut("slow");
+		}
 	});
-
-	// show page on ready
-	$("#loadingMask").fadeOut("slow");
 
 });
 
