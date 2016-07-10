@@ -13,7 +13,7 @@ $(document).ready(function() {
 	});
 
 	// show page on ready
-	$("#loadingMask").fadeOut("slow", "swing");
+	$("#loadingMask").fadeOut("slow");
 
 });
 
