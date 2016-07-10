@@ -5,6 +5,8 @@ $(document).ready(function() {
 
 	// intitalize fullpage
 	$('#fullpage').fullpage({
+		sectionsColor: ['#1bbc9b', 'whitesmoke', '#ccddff', '#7BAABE', '#4BBFC3'],
+		css3: true,
 		navigation: true,
 		navigationPosition: 'right',
 		scrollBar: true
