@@ -156,7 +156,7 @@ a i {
 }
 
 #skills {
-  padding-top: 10vh;
+  padding-top: 10vmin;
 }
 
 #skill-chart {
@@ -170,7 +170,7 @@ a i {
   border-radius: 6px;
   line-height: 3.5vmin;
   padding: 2.5vmin;
-  margin: 5vh 0 5vh 0;
+  margin: 5vmin 0 5vmin 0;
 }
 
 .education a {
