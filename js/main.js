@@ -10,6 +10,7 @@ $(document).ready(function() {
 		navigation: true,
 		navigationPosition: 'right',
 		scrollBar: true,
+		slidesNavigation: true,
 		afterRender: function() {
 			// show page on ready
 			$("#loadingMask").fadeOut("slow");
