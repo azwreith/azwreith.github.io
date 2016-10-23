@@ -23,7 +23,7 @@ $(document).ready(function() {
 var ctx = document.getElementById("skill-chart").getContext("2d");
 
 var data = {
-	labels: ['Java', 'MySQL', 'JavaScript', 'Python', 'C#', 'HTML5/CSS3', 'C++', 'PHP'],
+	labels: ['Java', 'React.js', 'JavaScript (ES6)', 'Python', 'Node.js', 'HTML5/CSS3', 'C++', 'PHP'],
 	datasets: [{
 		label: "Skill Level",
 		fillColor: "rgba(51, 51, 51, 0.6)",
@@ -32,7 +32,7 @@ var data = {
 		pointStrokeColor: "#fff",
 		pointHighlightFill: "#fff",
 		pointHighlightStroke: "rgba(220,220,220,1)",
-		data: [8, 7, 7, 6, 7, 8, 7, 5]
+		data: [8, 7, 9, 7, 8, 9, 6, 6]
 	}]
 };
 
